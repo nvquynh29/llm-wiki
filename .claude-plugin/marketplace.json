@@ -1,0 +1,29 @@
+{
+  "name": "llm-wiki",
+  "id": "llm-wiki",
+  "owner": {
+    "name": "nvquynh29"
+  },
+  "metadata": {
+    "description": "Personal knowledge base maintained by Claude Code. Ingest sources, build interlinked wiki, query knowledge, lint quality.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "llm-wiki",
+      "source": "./",
+      "description": "Personal knowledge base maintained by Claude Code. Ingest sources into a wiki, query wiki knowledge, lint wiki quality.",
+      "version": "1.0.0",
+      "author": {
+        "name": "nvquynh29"
+      },
+      "keywords": [
+        "wiki",
+        "knowledge-base",
+        "llm",
+        "research"
+      ],
+      "category": "productivity"
+    }
+  ]
+}
